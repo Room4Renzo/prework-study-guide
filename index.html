@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
 
           <ul>
 
-            <li><"!DOCTYPE html"> - Denotes the type of document to the browser</li>
+            <li>"<!DOCTYPE html>" - Denotes the type of document to the browser</li>
 
             <li>The head element contains information about the webpage</li>
 
@@ -38,7 +39,49 @@
 
         <ul>
 
-          <li>Enter your CSS notes here</li>
+          <li> A margin indicates how much space we want around the outside of an element </li>
+
+          <li> A padding indicates how much space we want around the content inside an element. </li>
+
+          <li> Everything on a webpage is essentialy a box/block </li>
+
+          
+            <div class="picrow" id="csspics">
+              <div class="column" id="picone"> 
+                <img src="./assets/CSS Box Model.png" class="boxpic" id="boxmodelone" alt="Example of box model properties">
+              </div>
+
+              <div class="column" id="pictwo"> 
+                <img src="./assets/CSS Box Model 2.png" class="boxpic" id="boxmodeltwo" alt="Another visualisation of box model properties">
+              </div>
+            </div> 
+             
+            <br>
+          
+          <li style="clear:both;"> In CSS we broadly have two types of boxes — block boxes and inline boxes </li>
+
+          <li> You can set various values for the display type using the display property </li>
+
+          <li> Block boxes break onto a new line </li>
+
+          <li> Width and height are not affected by padding margins and borders </li>
+
+          <li> Instead they push other elements away from the box </li>
+
+          <li> The box will usually share the width of its container by default </li>
+
+          <li> Contrastingly Inline boxes do not break onto a new line </li>
+
+          <li> Padding, margins, and borders apply but dont push away other inline boxes </li>
+
+          <li>There are two CSS box models — Standard and Alternative </li>
+
+          <li>In the standard CSS box model the total size of the box is affected by paddings and borders</li>
+
+          <li>In the alternative model the width is literal and the padding and border arent calculated seperately for a total</li>
+
+          <li>The margin is not counted towards the actual size of a box</li>
+
 
         </ul>
 
@@ -68,7 +111,7 @@
 
           <li>git checkout "branchname" - Moves working branch to named branch</li>
 
-          <li>git clone <"SSH value"> (inside directory) - to create a clone</li>
+          <li>git clone "SSH value" (inside directory) - to create a clone</li>
 
           <li>git checkout -b "branchname" - Creates a new branch and moves working branch there</li>
 
